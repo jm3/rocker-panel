@@ -1,5 +1,5 @@
-<div class="footer wrapper">
+<footer class="footer wrapper">
 	<nav class="nav">
-		<div><a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="gohugo.io">Hugo</a></div>
+    {{ .Site.Params.copyright | default "&copy; All rights reserved. Powered by the internet" | markdownify }}
 	</nav>
-</div>
+</footer>

@@ -10,6 +10,7 @@ pygmentscodefencesguesssyntax = true
 googleAnalytics = "UA-123-45"
 
 [params]
+  copyright = "© ← copyleft <abbr title='John Manoogian III'>jm3</abbr> &mdash; all rights reserved, all wrongs      reversed, no punches pulled"
 	subtitle = "Clean and minimal personal [blog theme for Hugo](https://github.com/vividvilla/ezhil)"
 	# Number of posts to show in recent posts list.
 	recentPostsCount = 10

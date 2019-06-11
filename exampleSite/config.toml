@@ -1,7 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://todayilearned.jm3.net/"
 languageCode = "en-us"
-title = "Ezhil"
-theme = "ezhil"
+title = "Rocker Panel"
+theme = "rocker-panel"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
@@ -10,12 +10,13 @@ pygmentscodefencesguesssyntax = true
 googleAnalytics = "UA-123-45"
 
 [params]
-  copyright = "© ← copyleft <abbr title='John Manoogian III'>jm3</abbr> &mdash; all rights reserved, all wrongs      reversed, no punches pulled"
-	subtitle = "Clean and minimal personal [blog theme for Hugo](https://github.com/vividvilla/ezhil)"
+  copyright = "© ← copyleft <abbr title='John Manoogian'>jm3</abbr> &mdash; all rights reserved, all wrongs      reversed, no punches pulled"
+	subtitle = "Simple Hugo [theme](https://github.com/jm3/rocker-panel)"
 	# Number of posts to show in recent posts list.
 	recentPostsCount = 10
 	# Content types which are excluded from recent posts and archive page.
 	excludedTypes = ["page"]
+  primaryType = "posts"
 	featherIconsCDN = true
 
 [[menu.main]]
@@ -41,12 +42,12 @@ weight = 4
 [[params.social]]
 name = "Github"
 icon = "github"
-url = "https://github.com/vividvilla/ezhil"
+url = "https://github.com/jm3"
 
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://twitter.com/gohugoio"
+url = "https://twitter.com/nerdshitposting"
 
 [[params.social]]
 name = "RSS"
@@ -54,4 +55,4 @@ icon = "rss"
 url = "/index.xml"
 
 [taxonomies]
-   tag = "tags"
+tag = "tags"

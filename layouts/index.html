@@ -7,13 +7,11 @@
 
 		<div class="recent-posts section">
 			<h2 class="section-header">
-				Recent learnings
+        Recent {{ .Site.Params.primaryType }}
 			</h2>
 			<div class="posts">
 				{{- $.Scratch.Set "counter" 0 -}}
-				{{- range .Data.Pages -}}
-				{{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
-				{{- else -}}
+        {{ range where .Pages "Type" "==" .Site.Params.primaryType }}
 				{{- if lt ($.Scratch.Get "counter") (.Site.Params.RecentPostsCount | default 10) -}}
 				<div class="post">
 					<div class="meta">{{ dateFormat "Jan 2, 2006" .Date }}</div>
@@ -31,9 +29,8 @@
 				{{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) -}}
 				{{- end -}}
 				{{- end -}}
-				{{- end -}}
 
-				<a href="/posts">All learnings →</a>
+				<a href="/posts">All {{ .Site.Params.primaryType }} →</a>
 			</div>
 		</div>
 	</div>

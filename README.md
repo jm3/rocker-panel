@@ -23,11 +23,17 @@ You can specify content type with field `type` in your content. For example stat
 ```
 ---
 title: "About"
-date: 2019-04-19T21:37:58+05:30
+date: 2019-06-11T00:00:00-05:00
 type: "page"
 ---
 
-This is some static page where you can write about yourself.
+Two things in this world that take no skill:
+
+1. Spending other people’s money, and
+2. Dismissing an idea.
+
+-- Jason Fried
+
 ```
 
 # Credits

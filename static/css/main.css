@@ -173,12 +173,12 @@ ul {
   margin-top: 50px;
 }
 
-.header {
+header {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
-.header h1, .header h2 {
+header h1, header h2 {
   margin: 0;
   padding: 0;
 
@@ -186,25 +186,25 @@ ul {
   line-height: 1.3em;
 }
 
-.header h2 {
+header h2 {
   font-size: 1.125rem;
 }
 
-.header nav {
+header nav {
   margin-top: 20px;
 
   border-top: 1px solid hsl(0, 0%, 96%);
 }
 
-.header nav ul, .header nav li {
+header nav ul, header nav li {
   margin: 0;
 }
 
-.header nav ul.flat {
+header nav ul.flat {
   padding: 0;
 }
 
-.header nav ul.flat li {
+header nav ul.flat li {
   display: inline-block;
   margin-top: 10px;
   margin-right: 10px;
@@ -215,19 +215,19 @@ ul {
   list-style: none;
 }
 
-.header .site-description {
+header .site-description {
   display: flex;
   justify-content: space-between;
 }
 
-.header .site-description nav {
+header .site-description nav {
   margin: 0;
   padding: 0;
 
   border: none;
 }
 
-.header .site-description nav ul svg {
+header .site-description nav ul svg {
   max-height: 15px;
 }
 

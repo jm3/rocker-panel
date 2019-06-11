@@ -5,8 +5,6 @@ Dead simple Hugo theme without Bootstrap
 # Demo
 [View demo](https://todayilearned.jm3.net/)
 
-![Screenshot](images/screenshot.png "screenshot")
-
 # Features
 * Simple
 * Responsive

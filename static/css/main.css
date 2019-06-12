@@ -324,3 +324,9 @@ header .site-description nav ul svg {
     font-size: 14px;
   }
 }
+
+/* jm3 */
+code {
+  background-color: hsla(0,0%,0%,0.9);
+  display: block;
+}

@@ -16,13 +16,11 @@ html, button, input, select, textarea {
 
 ::-moz-selection {
   text-shadow: none;
-
   background: hsl(213, 92%, 85%)
 }
 
 ::selection {
   text-shadow: none;
-
   background: hsl(213, 92%, 85%)
 }
 
@@ -31,21 +29,18 @@ hr {
   height: 1px;
   margin: 1rem 0;
   padding: 0;
-
   border: 0;
   border-top: 1px solid hsl(0, 0%, 80%)
 }
 
 audio, canvas, img, video {
   width: 100%;
-
   vertical-align: middle
 }
 
 fieldset {
   margin: 0;
   padding: 0;
-
   border: 0
 }
 
@@ -56,18 +51,15 @@ textarea {
 blockquote {
   margin-left: 1rem;
   padding-left: 20px;
-
   font-size: 1.4rem;
   font-family: Georgia,bitstream charter,serif;
   font-style: italic;
-
   border-color: hsl(0, 100%, 33%);
   border-left: 3px solid
 }
 
 blockquote cite {
   font-size: 70%;
-
   opacity: .8
 }
 
@@ -86,21 +78,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2
 }
 
-h1 {
-  font-size: 2.75rem
-}
-
-h2 {
-  font-size: 2rem
-}
-
-h3 {
-  font-size: 1.6rem
-}
-
-h4 {
-  font-size: 1.2rem
-}
+h1 { font-size: 2.75rem }
+h2 { font-size: 2rem    }
+h3 { font-size: 1.6rem  }
+h4 { font-size: 1.2rem  }
 
 h5 {
   font-weight: 300;
@@ -128,7 +109,6 @@ ul.flat {
 ul.flat li {
   display: inline-block;
   margin-left: 0;
-
   list-style: none
 }
 
@@ -156,7 +136,6 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   padding: 20px;
-
   background-color: hsl(0, 0%, 98%) !important;
 }
 
@@ -181,7 +160,6 @@ header {
 header h1, header h2 {
   margin: 0;
   padding: 0;
-
   font-size: 2rem;
   line-height: 1.3em;
 }
@@ -192,7 +170,6 @@ header h2 {
 
 header nav.primary {
   margin-top: 20px;
-
   border-top: 1px solid hsl(0, 0%, 96%);
 }
 
@@ -201,9 +178,7 @@ header nav ul.flat li {
   margin-top: 10px;
   margin-right: 10px;
   margin-left: 0;
-
   text-transform: capitalize;
-
   list-style: none;
 }
 
@@ -218,7 +193,6 @@ header .site-description nav ul svg {
 
 .section .section-header {
   margin-bottom: 20px;
-
   color: hsl(0, 0%, 60%);
   font-weight: 600;
   font-size: 0.75rem;
@@ -230,7 +204,9 @@ header .site-description nav ul svg {
   margin-bottom: 30px;
 }
 
-.recent-posts .posts .post .meta, .post .post-header .meta, .list .posts .post .meta {
+.recent-posts .posts .post .meta,
+.post .post-header .meta,
+.list .posts .post .meta {
   margin-bottom: 4px;
 
   color: hsl(0, 0%, 60%);
@@ -258,11 +234,9 @@ header .site-description nav ul svg {
 .footer {
   margin-top: 40px;
   padding: 20px 0;
-
   color: hsl(0, 0%, 60%);
   font-size: 0.75em;
   text-align: right;
-
   border-top: 1px solid hsl(0, 0%, 96%);
 }
 

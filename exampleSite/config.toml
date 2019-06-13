@@ -22,21 +22,25 @@ googleAnalytics = "UA-123-45"
 [[menu.main]]
 name = "Home"
 url = "/"
+pre = "box"
 weight = 1
 
 [[menu.main]]
 name = "All posts"
 url = "/posts"
+pre = "box"
 weight = 2
 
 [[menu.main]]
 name = "About"
 url = "/about"
+pre = "box"
 weight = 3
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
+pre = "box"
 weight = 4
 
 [[params.social]]

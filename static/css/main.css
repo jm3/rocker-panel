@@ -190,18 +190,10 @@ header h2 {
   font-size: 1.125rem;
 }
 
-header nav {
+header nav.primary {
   margin-top: 20px;
 
   border-top: 1px solid hsl(0, 0%, 96%);
-}
-
-header nav ul, header nav li {
-  margin: 0;
-}
-
-header nav ul.flat {
-  padding: 0;
 }
 
 header nav ul.flat li {
@@ -218,13 +210,6 @@ header nav ul.flat li {
 header .site-description {
   display: flex;
   justify-content: space-between;
-}
-
-header .site-description nav {
-  margin: 0;
-  padding: 0;
-
-  border: none;
 }
 
 header .site-description nav ul svg {

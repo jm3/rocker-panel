@@ -234,7 +234,6 @@ header .site-description nav ul svg {
 footer {
   margin-top: 40px;
   padding: 20px 0;
-  color: hsl(0, 0%, 60%);
   font-size: 0.75em;
   text-align: right;
   border-top: 1px solid hsl(0, 0%, 96%);
